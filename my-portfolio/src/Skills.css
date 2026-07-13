@@ -1,0 +1,33 @@
+.skills-container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.skills-container h1 {
+    color: #333;
+    text-align: center;
+}
+
+.skills-container h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+.skills-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.skills-container ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.skills-container li {
+    margin-bottom: 8px;
+    font-size: 18px;
+}

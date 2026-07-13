@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+.title{
+    text-align:center;
+    margin-top:30px;
+}
+
+.projects{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:30px;
+}
+
+.card{
+    width:300px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card h2{
+    margin-top:15px;
+}
+
+.card p{
+    color:#555;
+}
