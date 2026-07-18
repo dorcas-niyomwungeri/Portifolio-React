@@ -1,7 +1,7 @@
 import "./About.css";
 import Nav from "./Nav";
 
-export default function About() {
+export default function About(){
   return (
     <div>
       <Nav />

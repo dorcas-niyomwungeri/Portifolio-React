@@ -9,6 +9,9 @@ export default function Nav(){
             <Link to="/contact">Contact</Link>
             <Link to="/portfolio">Portfolio</Link>
             <Link to="/skills">Skills</Link>
+            <Link to="/useState">State</Link>
+            <Link to="/useEffect">Effects</Link>
+            <Link to="/useRef">Refs</Link>
         </nav>
     )
 }
