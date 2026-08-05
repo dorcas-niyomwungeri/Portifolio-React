@@ -6,9 +6,9 @@ const names =["dorcas","kevin","betty"]
 return(
     <div>
         <Nav></Nav>
-    {names.map((name)=>(
-       <h2 key={name}>{name}</h2>
-    ))}
+        <p>This is for arranging items in array</p>
+    {names.map((name)=>
+    <h2 key={name}>{name}</h2>)}
     </div>
 )
 }
