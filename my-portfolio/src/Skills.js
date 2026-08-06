@@ -3,25 +3,79 @@ import Nav from "./Nav";
 
 export default function Skills() {
   return (
-    <div>
+    <>
       <Nav />
 
-      <div className="skills-container">
-        <h1>My Skills</h1>
+      <section className="skills-page">
 
-        <p><strong>Name:</strong> Dorcas Niyomwungeri</p>
-        <p><strong>School:</strong> Glory Academy</p>
-        <p><strong>Course:</strong> Software Development</p>
+        <p className="skills-title">MY SKILLS</p>
 
-        <h2>Technical Skills</h2>
+        <h1>
+          Technologies & <span>Expertise</span>
+        </h1>
 
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Vue.js</li>
-          <li>Currently Learning React</li>
-        </ul>
-      </div>
-    </div>
+        <p className="skills-text">
+          I continuously improve my technical and creative skills to build
+          responsive, scalable and visually appealing digital products. My
+          experience covers frontend development, backend development,
+          user experience design and graphic design.
+        </p>
+
+        <div className="skills-container">
+
+          <div className="skill-card">
+            <h2>HTML5</h2>
+            <span>100%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>CSS3</h2>
+            <span>100%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>JavaScript</h2>
+            <span>90%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>React</h2>
+            <span>85%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>Vue.js</h2>
+            <span>90%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>Node.js</h2>
+            <span>80%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>Express.js</h2>
+            <span>80%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>UX / UI Design</h2>
+            <span>100%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>Graphic Design</h2>
+            <span>100%</span>
+          </div>
+
+          <div className="skill-card">
+            <h2>Git & GitHub</h2>
+            <span>85%</span>
+          </div>
+
+        </div>
+
+      </section>
+    </>
   );
 }
