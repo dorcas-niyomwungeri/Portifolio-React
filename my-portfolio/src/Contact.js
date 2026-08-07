@@ -66,7 +66,9 @@ export default function Contact() {
         </form>
 
       </section>
-
+<p className="copyright">
+      © 2026 Dorcas Niyomwungeri. All Rights Reserved.
+    </p>
     </>
   );
 }

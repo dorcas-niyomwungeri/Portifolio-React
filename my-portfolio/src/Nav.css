@@ -24,9 +24,25 @@ nav{
     border-bottom:1px solid #222;
 }
 
-.logo h2{
-    color:#f97316;
-    font-size:32px;
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:55px;
+    height:55px;
+    object-fit:cover;
+    border-radius:50%;
+    border:3px solid #f97316;
+    cursor:pointer;
+    transition:.4s;
+    box-shadow:0 0 20px rgba(249,115,22,.35);
+}
+
+.logo img:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 30px rgba(249,115,22,.6);
 }
 
 .links{

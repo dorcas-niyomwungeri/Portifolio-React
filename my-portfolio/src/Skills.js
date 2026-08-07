@@ -70,12 +70,15 @@ export default function Skills() {
 
           <div className="skill-card">
             <h2>Git & GitHub</h2>
-            <span>85%</span>
+            <span>100%</span>
           </div>
 
         </div>
 
       </section>
+      <p className="copyright">
+      © 2026 Dorcas Niyomwungeri. All Rights Reserved.
+    </p>
     </>
   );
 }

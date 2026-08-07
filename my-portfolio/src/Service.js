@@ -69,6 +69,9 @@ export default function Services() {
         </div>
 
       </section>
+      <p className="copyright">
+      © 2026 Dorcas Niyomwungeri. All Rights Reserved.
+    </p>
     </>
   );
 }

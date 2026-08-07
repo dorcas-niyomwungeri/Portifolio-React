@@ -71,6 +71,9 @@ export default function About() {
         </div>
 
       </section>
+      <p className="copyright">
+      © 2026 Dorcas Niyomwungeri. All Rights Reserved.
+    </p>
     </>
   );
 }

@@ -3,6 +3,7 @@ import Nav from "./Nav";
 
 export default function Home() {
   return (
+
     <>
       <Nav />
 
@@ -27,7 +28,12 @@ export default function Home() {
 
           <div className="buttons">
             <button>Download CV</button>
-            <button className="outline">Contact Me</button>
+           <button
+  className="outline"
+  onClick={() => window.open("http://localhost:3000/contact", "_blank")}
+>
+  Contact Me
+</button>
           </div>
 
           <div className="stats">
@@ -60,7 +66,24 @@ export default function Home() {
         </div>
 
       </section>
+     <footer className="footer">
 
+  <div className="footer-content">
+
+    <p>
+      Passionate Full Stack Developer creating modern, responsive and
+      user-focused web applications with beautiful designs and scalable
+      backend solutions.
+    </p>
+
+
+    <p className="copyright">
+      © 2026 Dorcas Niyomwungeri. All Rights Reserved.
+    </p>
+
+  </div>
+
+</footer>
     </>
   );
 }

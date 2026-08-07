@@ -6,7 +6,7 @@ export default function Nav() {
     <nav>
 
       <div className="logo">
-        <h2>DN.</h2>
+        <img src="./loj.png" alt="Logo" />
       </div>
 
       <div className="links">
