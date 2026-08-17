@@ -4,9 +4,6 @@ import About from './About';
 import Contact from './Contact';
 import Service from './Service';
 import Skills from './Skills';
-import UseState from './useState';
-import UseEffect from './useEffect';
-import UseRef from './useRef';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -19,9 +16,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Service />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/useState" element={<UseState />} />
-        <Route path="/useEffect" element={<UseEffect />} />
-        <Route path="/useRef" element={<UseRef/>} />
       </Routes>
     </BrowserRouter>
   );
