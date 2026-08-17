@@ -58,13 +58,15 @@ export default function About() {
           </div>
 
           <div className="card">
-            <h2>Professional Goals</h2>
+            <h2>Professional Accomplished Goals</h2>
 
             <p>
-              My goal is to become a professional Full Stack Developer capable
-              of delivering complete web solutions, from designing intuitive
-              user interfaces to developing secure backend systems and scalable
-              databases.
+              -I have built and deployed several web applications and Games, such as
+              <p>.Finance web applcation</p>
+              <p>.Weather Application</p>
+              <p>.Beauty Shop</p>
+              <p>.Survival Game and other 7 Games</p>
+              
             </p>
           </div>
 

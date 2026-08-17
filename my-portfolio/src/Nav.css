@@ -21,12 +21,12 @@ nav{
     padding:22px 80px;
     background:#111;
     z-index:1000;
-    border-bottom:1px solid #222;
+    border-bottom:#222;
 }
 
 .logo{
     display:flex;
-    align-items:center;
+    align-items:center; 
 }
 
 .logo img{
@@ -36,7 +36,7 @@ nav{
     border-radius:50%;
     border:3px solid #f97316;
     cursor:pointer;
-    transition:.4s;
+    transition:.4s; 
     box-shadow:0 0 20px rgba(249,115,22,.35);
 }
 
